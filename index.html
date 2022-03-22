@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+<!--    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline'; script-src 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-inline'">-->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; script-src-elem 'unsafe-inline' 'self'">
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self';script-src 'unsafe-inline' 'self' http://ayni.ceph.com;script-src-elem 'unsafe-inline' 'self' http://ayni.ceph.com;style-src 'unsafe-inline' 'self' https://fonts.googleapis.com;style-src-elem 'unsafe-inline' 'self';font-src https://fonts.googleapis.com https://fonts.gstatic.com" />    <link href="./styles.css" rel="stylesheet">-->
+    <script>
+    // You can also require other files to run in this process
+    require('bootstrap');
+</script>
+<link href="static/css/app.css" rel="stylesheet"/>
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
