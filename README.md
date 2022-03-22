@@ -1,4 +1,5 @@
-# electron-quick-start
+# electron-express-react
+This project is based on [this article](https://medium.com/@keshavagrawal/electron-js-react-js-express-js-b0fb2aa8233f)
 
 **Clone and run for a quick way to see Electron in action.**
 
